@@ -40,3 +40,17 @@ console.log(priceType + " " + typeof (priceType))
 console.log(currencyUnit.toString() + " " + typeof (currencyUnit))
 console.log(ownerName + " " + typeof (ownerName))
 console.log(registrationNumber + " " + typeof (registrationNumber))
+
+//var redeclared and reassigned with new value
+var carModel = "maruti"
+console.log(carModel + " " + typeof (carModel))
+
+if (isAutomatic) {
+    //var redeclared as let and reassigned with new value
+    let carModel = "BMW"
+    console.log(carModel + " " + typeof (carModel))
+    //carModel is printed with block scope value
+}
+
+// carModel is printed with global scope value
+console.log(carModel + " " + typeof (carModel))
