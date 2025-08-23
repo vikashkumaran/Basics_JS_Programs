@@ -13,4 +13,4 @@ if(dataArray[i]==='e'){
     count++;
 }
 }
-console.log(`count of e is ${count}`)
+console.log(`count of e is ${count}`);
