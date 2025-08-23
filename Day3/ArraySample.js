@@ -16,7 +16,8 @@ console.log(employeeNames);
 employeeNames.unshift('1'); //To add an element in the beginning of an array
 console.log(employeeNames);
 employeeNames.splice(1, 0, 'spliceData');//To add an element in particular position by removing a data in specific position
-//second param 0 indicates no element need to be deleted, if 1 data in that position will be deleted
+//for the above code, 'spliceData' will be added after index position 1
+//second param : 0 indicates no element need to be deleted, if 1 data will be deleted in the array
 console.log(employeeNames);
-//employeeNames.pop();//To remove last data in an array
+employeeNames.pop();//To remove last data in an array
 console.log(employeeNames);
