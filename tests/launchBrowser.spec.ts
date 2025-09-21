@@ -8,8 +8,6 @@ test('Login Page',async()=>{
     const context=await browser.newContext()
     const page=await context.newPage()
     await page.goto("http://leaftaps.com/opentaps/control/main")
-
-
     await page.locator('#username').fill("DemoSalesManager")
     await page.locator('[name=PASSWORD]').fill("crmsfa")
     await page.locator('.decorativeSubmit').click()
